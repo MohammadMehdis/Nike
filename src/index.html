@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="text-[10px]" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#F8F8F8] font-Poppins flex justify-center items-center h-screen overflow-y-hidden">
+    <section class="container flex justify-center items-center h-screen bg-[#F8F8F8]">
+      <div
+        class="container-left w-[50%] h-full flex flex-col justify-center items-center"
+      >
+        <div class="text-[1.4rem] w-[31.397rem] h-[7.539rem] flex flex-col justify-center items-center">
+          <h1 class="text-[#030303] text-[3.4rem]">WELCOME BACK</h1>
+          <span class="text-[#636364]"
+            >Welcome back! Please enter your details.</span
+          >
+        </div>
+        <br /><br />
+        <form
+          class="font-medium text-[1.4rem] text-black flex flex-col justify-center gap-[1.5rem] w-[31.397rem]"
+          action="index.html"
+        >
+          <div class="flex flex-col gap-[1.2rem]">
+            <label for="Email">Email</label>
+            <input
+              class="w-[31.397rem] h-[4.131rem] rounded-[1.2rem] border-[#C4C4C4] border-2 focus:outline-none pl-[1rem] font-light"
+              id="Email"
+              type="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="flex flex-col gap-[1rem]">
+            <label for="Password">Password</label>
+            <input
+              class="w-[31.397rem] h-[4.131rem] rounded-[1.2rem] border-[#C4C4C4] border-2 focus:outline-none pl-[1rem] font-light"
+              id="Password"
+              type="password"
+              placeholder="**********"
+              required
+            />
+          </div>
+          <div class="flex justify-between items-center text-[1.2rem]">
+            <li class="flex gap-[0.6rem]">
+              <input type="checkbox" /> <a href="#">Remember me</a>
+            </li>
+            <li><a href="#">Forgot password</a></li>
+          </div>
+          <div class="flex flex-col justify-center items-center gap-[1rem]">
+            <input class="sub cursor-pointer bg-[#030303] text-white py-2 px-4 rounded-[1.2rem]" type="submit" value="Submit">
+            <div
+              class="w-full h-[4.31rem] border-2 flex items-center gap-2 justify-center rounded-[1.2rem] border-[#C4C4C4]"
+            >
+              <img src="./images/free-icon-google-300221 1.png" alt="" />
+              <span>Sign in with Google</span>
+            </div>
+          </div>
+          <div class="font-medium w-full justify-center items-center flex text-[1rem]">
+            <a href="#"
+              ><span>Don’t have an account?</span>
+              <span class="text-[#EA454C]">Sign up for free!</span></a
+            >
+          </div>
+        </form>
+      </div>
+      <div class="container-right w-[50%]">
+        <img src="./images/Right Side.png" alt="" />
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
